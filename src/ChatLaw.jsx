@@ -19,7 +19,7 @@ function ChatLaw()
         console.log("Working")
         try
         {
-            let response = await fetch("http://localhost:8000/ask", {
+            let response = await fetch("https://cf04-103-174-5-165.ngrok-free.app/ask", {
                 method: "POST",
                 headers:{
                     "Content-Type": "application/json"
